@@ -12,7 +12,7 @@ public class Digits
 		}
 		while (num > 0) {
 			digitList.add(0,num%10);
-			num/10;
+			num = num/10;
 		}
 	}
 
